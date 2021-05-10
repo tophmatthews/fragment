@@ -1,6 +1,6 @@
 #include "FragmentBC.h"
 
-registerMooseObject("fragmentApp", FragmentBC);
+registerMooseObject("PrimaryApp", FragmentBC);
 
 defineLegacyParams(FragmentBC);
 
