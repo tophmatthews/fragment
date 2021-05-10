@@ -1,0 +1,7 @@
+[Tests]
+  [test]
+    type = 'CSVDiff'
+    input = 'simple_diffusion.i'
+    csvdiff = 'simple_diffusion_out.csv'
+  []
+[]
