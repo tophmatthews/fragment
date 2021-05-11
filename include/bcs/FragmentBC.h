@@ -1,13 +1,13 @@
 #pragma once
 
-#include "FragmentBCBase.h"
+#include "PrimaryBCBase.h"
 
 class FragmentBC;
 
 template <>
 InputParameters validParams<FragmentBC>();
 
-class FragmentBC : public FragmentBCBase
+class FragmentBC : public PrimaryBCBase
 {
 public:
   static InputParameters validParams();
